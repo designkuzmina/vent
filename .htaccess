@@ -8,6 +8,8 @@
   ExpiresByType image/jpeg "access plus 7 day"
   ExpiresByType image/gif "access plus 7 day"
   ExpiresByType image/png "access plus 7 day"
+  ExpiresByType image/svg "access plus 7 day"
+  ExpiresByType image/jpg "access plus 7 day"
   
   <FilesMatch \.(css|js)$>
     ExpiresDefault "access plus 1 year"
